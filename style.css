@@ -1,0 +1,65 @@
+body {
+ margin: 150px auto auto auto;
+ width: 70%;
+ background-color: gray;
+}
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: antiquewhite;
+ height: 50vh;
+ width: 55%;
+ margin: auto;
+ border-radius: 25px;
+ padding: 0;
+}
+
+h1 {
+ text-transform: uppercase;
+ font-size: 1.7em;
+}
+
+hr {
+ width: 70%;
+ height: 3px;
+ border-radius: 25px;
+ border: none;
+ background-color: red;
+}
+
+#conversionInput, select {
+ margin: 20px 0;
+}
+
+#convert {
+ width: 100px;
+ height: 25px;
+ border-radius: 25px;
+border: solid red 1px;
+color: red;
+background-color: white;
+}
+
+#convert:hover {
+ color: white;
+ background-color: red;
+}
+
+#reset {
+ width: 100px;
+ height: 25px;
+ border-radius: 25px;
+ border: solid white 1px;
+ color: white;
+ background-color: red;
+}
+
+#reset:hover {
+ color: red;
+ border: solid red 1px;
+ background-color: white;
+}

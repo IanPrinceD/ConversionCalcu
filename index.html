@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Conversion Calculator</title>
+</head>
+
+<body>
+ <div class="container">
+ <h1>Conversion Calculator</h1>
+ <hr>
+ <p>Enter the length here</p>
+ <div class="convert">
+ <input type="number" id="conversionInput" placeholder="Inches">
+ <select name="conversionCalcu" id="unit">
+  <option value="millimeter">Millimeter</option>
+  <option value="centimeter">Centimeter</option>
+  <option value="meter">Meter</option>
+ </select>
+ </div>
+ <div class="btn">
+  <button onclick="conversionCalcu()" id="convert">Convert</button>
+  <button onclick="reset()" id="reset">Reset</button>
+ </div>
+ <p id="result">0</p>
+ </div>
+ <script src="conversion.js"></script>
+</body>
+
+</html>
